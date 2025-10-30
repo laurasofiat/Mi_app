@@ -1,0 +1,30 @@
+import tkinter as tk
+ventana=tk.Tk()
+ventana.title("Lista de productos disponibles")
+ventana.geometry("500x500")
+
+
+lista=[{"nombre":"Jabón"},{"precio":1500},{"cantidad":10},
+{"nombre":"Cepillo de dientes"},{"precio":2000},{"cantidad":5},
+{"nombre":"Shampo"},{"precio":3500},{"cantidad":20},
+{"nombre":"Acondicionador"},{"precio":4000},{"cantidad":15}]
+
+lista_texto=tk.StringVar()
+
+def mostrar_mensaje():
+    texto="Productps disponibles:\n"
+    for l in lista:
+         lista_texto.set(lista_texto.get()+f"{lista}")
+
+boton=tk.Button(ventana, text="Mostrar productos", command=mostrar_mensaje).pack()
+etiqueta=tk.Label(ventana, textvariable=lista_texto)
+etiqueta.pack()
+
+def ocultar_mensaje():
+    lista_texto.set("")
+
+boton1=tk.Button(ventana, text="Ocultar productos", command=ocultar_mensaje)
+boton1.pack()
+
+
+ventana.mainloop()
