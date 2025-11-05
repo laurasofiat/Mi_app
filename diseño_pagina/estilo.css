@@ -1,0 +1,35 @@
+h1{
+text-align: center;
+font-family:cursive;
+padding: 15px;
+border-radius: 10px;
+color: white;
+}
+h3{
+text-align: center;
+font-family:cursive;
+padding: 15px;
+border-radius: 10px;
+color:rgb(94, 98, 113);
+}
+p{
+text-align: center;
+color:rgb(103, 108, 128);
+font-family: cursive;
+}
+h2{
+color: blanchedalmond;
+text-align: left;
+}
+p{position:center;}
+body {
+box-sizing: border-box;
+font-family: "Lucida Sans";
+font-size: 21px;
+background-image: url("image.jpeg");
+border-image-repeat: no repeat;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+table-layout: center
+}
