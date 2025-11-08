@@ -33,3 +33,9 @@ background-position: center;
 background-repeat: no-repeat;
 table-layout: center
 }
+.inicio-fondo {
+  background-image: url("imagee.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
