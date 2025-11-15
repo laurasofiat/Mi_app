@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de datos</title>
+    <h1>Registro</h1>
+    <link rel="stylesheet" href="../css/registro.css">
+</head>
+<body>
+    
+     <div class="container">  
+        <h2>Completa el registro.</h2> 
+        <div id="alerta" class="message"></div> 
+        <form id="contactForm">
+            <label for="id_usuarios">Número de Identificación</label> 
+            <input type="integer" id="id_usuarios" name="id_usuarios" required>
+
+            <label for="nombre">Nombre</label>
+            <input type="varchar" id="nombre" name="nombre" required>
+            
+            <label for="apellido">Apellido</label>
+            <input type="varchar" id="apellido" name="apellido" required>
+            
+            <label for="direccion">Dirección</label>
+            <input type="varchar" id="direccion" name="direccion" required>
+
+            <label for="telefono">Teléfono</label>
+            <input type="varchar" name="telefono" name="telefono" required>
+
+            <label for="correo">Correo Electrónico</label>
+            <input type="varchar" id="correo" name="correo" requered>
+
+            <label for="mensaje">Mensaje</label>
+            <textarea type="varchar" id="mensaje" name="mensaje"></textarea>
+            
+            
+            <button type="submit">Enviar</button>
+            
+        </form>
+    </div>
+</body>
+</html>

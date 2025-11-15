@@ -1,0 +1,62 @@
+h1{
+text-align: center;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+padding: 15px;
+border-radius: 20px;
+color: rgb(105, 105, 105);
+}
+p{
+text-align: center;
+color:rgb(105, 103, 95);
+font-family:Arial, sans-serif;
+}
+h2{
+color: rgb(152, 152, 152);
+text-align: left;
+}
+p{position:left;}
+body {
+box-sizing: border-box;
+font-family: "Lucida Sans";
+font-size: 21px;
+background-image: url("../imagenes/m3.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+table-layout: center;
+}
+form {
+background: rgba(145, 145, 145, 0.6);
+padding: 20px;
+border-radius: 10px;
+color: white;
+max-width: 600px;
+margin: auto;
+}
+.container{
+    background-position:left;
+    max-width: 600px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 2px 10px ;
+}
+input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        textarea { min-height: 100px; resize: vertical; }
+        button {
+            width: 100%;
+            padding: 12px;
+            background: #000000;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
