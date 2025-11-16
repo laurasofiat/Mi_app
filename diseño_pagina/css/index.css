@@ -1,16 +1,11 @@
-header nav {
+ header nav {
   position:fixed;
   margin: 0;
   display:flex;
   justify-content: center;
   font-weight: bold;
 }
-.envia{
-    color:white;
-    background-color: cornflowerblue;
-    justify-content: center;
-    text-align: center;
-}
+
 header ol {
     margin: 0;
     padding: 0;
@@ -49,6 +44,7 @@ nav p {
     color: #666;
     margin-top: 4px;
   }
+
 
 
 
