@@ -6,7 +6,7 @@ def conectar():  #Define la función para conectar con la base de datos
             host="localhost",
             database="empleados",   #Nombre de tu base de datos
             user="postgres",  #Usuario por defecto de PostgreSQL
-            password="",  #Contaseña de tu base de datos
+            password="lauratorres66",  #Contaseña de tu base de datos
         )
         print("Conxeión correcta a la base de datos")
         return conexion    #Devuelve el objeto de conexión 
